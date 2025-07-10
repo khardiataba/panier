@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panier d'Achat</title>
+  <link rel="stylesheet" href="style_panier.css">
+  
+
+</head>
+<body>
+  <h1>🛒 Mon Panier</h1>
+  <div class="cart">
+
+    <div class="item">
+      <img src="oud royal.jpeg" alt="Produit 1">
+      <div class="details">
+        <h3>Parfum Oud Royal</h3>
+        <p class="price">Prix: <span class="unit-price">20000</span> FCFA</p>
+        <div class="quantity">
+          <button class="minus">-</button>
+          <span class="qty">1</span>
+          <button class="plus">+</button>
+        </div>
+        <div class="actions">
+          <button class="delete">🗑️ Supprimer</button>
+          <button class="like">🤍</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="musc blanc.jpeg" alt="Produit 2">
+      <div class="details">
+        <h3>Parfum Musc Blanc</h3>
+        <p class="price">Prix: <span class="unit-price">15000</span> FCFA</p>
+        <div class="quantity">
+          <button class="minus">-</button>
+          <span class="qty">1</span>
+          <button class="plus">+</button>
+        </div>
+        <div class="actions">
+          <button class="delete">🗑️ Supprimer</button>
+          <button class="like">🤍</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="total">
+    Total : <span id="total-price">35000</span> FCFA
+  </div>
+
+  <script src="script_panier.js"></script>
+</body>
+</html>
